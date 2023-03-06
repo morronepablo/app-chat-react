@@ -162,7 +162,7 @@ const Chats = () => {
         <Stack 
             spacing={2}
             direction={"column"} 
-            sx={{flexGrow: 1, overflow: "scroll", height: "100%"}}
+            sx={{flexGrow: 1, overflowY: "scroll", height: "100%"}}
         >
             <SimpleBarStyle timeout={500} clickOnTrack={false}>
                 <Stack spacing={2.4}>
@@ -173,9 +173,7 @@ const Chats = () => {
                         return <ChatElement {...el} key={index} />
                     })}
                 </Stack>
-                <Stack spacing={2} sx={{height: "20px"}}>
-                    
-                </Stack>
+                <Stack spacing={2} sx={{height: "20px"}}></Stack>
                 <Stack spacing={2.4}>
                     <Typography variant="subtitle2" sx={{color: "#676767"}}>
                         Todos los Chats
