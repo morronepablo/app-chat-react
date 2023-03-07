@@ -11,15 +11,15 @@ import {
 
 const Profile_Menu = [
   {
-    title: "Profile",
+    title: "Perfil",
     icon: <User />,
   },
   {
-    title: "Settings",
+    title: "Ajustes",
     icon: <Gear />,
   },
   {
-    title: "Profile",
+    title: "Logout",
     icon: <SignOut />,
   },
 ];
@@ -201,22 +201,22 @@ const Chat_History = [
 
 const Message_options = [
   {
-    title: "Reply",
+    title: "Responder",
   },
   {
-    title: "React to message",
+    title: "Reaccionar al mensaje",
   },
   {
-    title: "Forward message",
+    title: "Reenviar mensaje",
   },
   {
-    title: "Star message",
+    title: "Comenzar mensaje",
   },
   {
-    title: "Report",
+    title: "Informe",
   },
   {
-    title: "Delete Message",
+    title: "Eliminar mensaje",
   },
 ];
 
